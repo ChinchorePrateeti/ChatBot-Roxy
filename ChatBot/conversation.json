@@ -1,0 +1,25 @@
+{
+  "intents":[
+{
+  "tag": "Dress Type",
+  "patterns":["types of dresses","availability","Dress type", "kinds of dress?", "Men", "Women", "Kids"], 
+  "responses":["western wear", "saaree","lehenga", "short","frock","kurta pajama", "suits","casuals"]
+},
+{
+  "tag": "About my Order",
+  "patterns":["Refund","Return","Order status", "Price","Refund status"], 
+  "responses":["Link below!"]
+},
+{
+  "tag": "Rewards & discounts",
+  "patterns":["My rewards?","supercoins","discounts","offers"], 
+  "responses":["diwali offers", "***bank credit card discounts 10%", "low coins earned based on your buying.."]
+},
+{
+  "tag": "Excess information",
+  "patterns":["I have more questions..","One more thing","Another question"], 
+  "responses":["Sure! Please continue", "What is it?", "Kindly write us on ***@gmail.com"]
+}
+
+]
+}

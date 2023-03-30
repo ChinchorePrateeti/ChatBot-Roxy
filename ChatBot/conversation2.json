@@ -1,0 +1,45 @@
+{
+  "intents":[
+{
+  "tag": "Welcome message",
+  "patterns":["Hello","Hi","What's up", "Is anyone there?", 
+    "heloooo","Welcome","Hey", "How are you"], 
+  "responses":["Hello!I'm here to help. What do you need?", "Hi, What can I do for you?","Hi there! How can I assist you?", "Hi! how can I help you:)"]
+},
+{
+  "tag": "Thanks and Good bye",
+  "patterns":["Goodbye","Cya","Thanks for the information"], 
+  "responses":["Goodbye!", "Have a great day","Bye bye"]
+},
+{
+  "tag": "Introduction",
+  "patterns":["Who is this?","What your name","What's up dear?","What is up?"], 
+  "responses":["I'm Roxy! May I know your name?", "Roxy this side. May I know your good name?", "I'm good hbu?"]
+},
+{
+  "tag": "Excess information",
+  "patterns":["I have more questions..","One more thing","Another question"], 
+  "responses":["Sure! Please continue", "What is it?"]
+},
+{
+  "tag": "Class",
+  "patterns":["Are crash courses available?","I'm currently looking for a crash course","Minimum crash course period?", "Course time period?", "crash course"], 
+  "responses":["Yes. It's for atleast 3 months..", "Yes, it is available for a minimum of 3 month period."]
+},
+{
+  "tag": "Payment",
+  "patterns":["Cost of crash course?","What is the 3 month course cost?","How much does a crash course cost", "Crash course cost"], 
+  "responses":["You can find fee structure in the link below", "Visit the link below for more."]
+},
+{
+  "tag": "Refund",
+  "patterns":["What if I discontinue?","Will I get a refund when I discontinue","Is there a way to get my money back?", "Can I get a refund", "Way to get a refund"], 
+  "responses":["Yes.If you discontinue within a week", "Not after you have studied for a week."]
+},
+{
+  "tag": "Numbers",
+  "patterns":["Can I contact someone for more info?","I need a customer care number", "How to contact you", "best way to reach you out"], 
+  "responses":["You can contact via email", "Please write us on our official mail Id", "Send a mail"]
+}
+]
+}
